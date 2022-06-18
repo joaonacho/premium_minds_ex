@@ -1,14 +1,15 @@
 import React from "react";
+import { UserType } from "./UserType";
 
 export const User = () => {
   return (
     <section
       style={{
         backgroundColor: "whitesmoke",
-        height: "100vh",
-        marginLeft: "300px",
-        width: "1187px",
-        position: "absolute",
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
       }}
     >
       <div
@@ -17,10 +18,13 @@ export const User = () => {
           marginTop: "50px",
           marginLeft: "50px",
           width: "120px",
+          alignSelf: "flex-start",
         }}
       >
         <h1>Utilizador</h1>
       </div>
+
+      <UserType />
     </section>
   );
 };

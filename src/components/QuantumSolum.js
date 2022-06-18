@@ -1,5 +1,10 @@
 import React from "react";
 
 export const QuantumSolum = () => {
-  return <div>QuantumSolum</div>;
+  return <section
+  style={{
+    backgroundColor: "whitesmoke",
+    width: "100%",
+  }}
+>QuantumSolum</section>;
 };

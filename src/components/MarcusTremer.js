@@ -1,5 +1,10 @@
 import React from "react";
 
 export const MarcusTremer = () => {
-  return <div>MarcusTremer</div>;
+  return <section
+  style={{
+    backgroundColor: "whitesmoke",
+    width: "100%",
+  }}
+>MarcusTremer</section>;
 };

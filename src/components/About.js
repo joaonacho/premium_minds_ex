@@ -1,5 +1,14 @@
 import React from "react";
 
 export const About = () => {
-  return <div>About</div>;
+  return (
+    <section
+      style={{
+        backgroundColor: "whitesmoke",
+        width: "100%",
+      }}
+    >
+      About
+    </section>
+  );
 };

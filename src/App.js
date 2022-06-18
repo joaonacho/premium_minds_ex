@@ -11,14 +11,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Navbar />
 
-      <Routes>
-        <Route path="/about" element={<About />} />
-        <Route path="/user" element={<User />} />
-        <Route path="/quantum" element={<QuantumSolum />} />
-        <Route path="/marcus" element={<MarcusTremer />} />
-      </Routes>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <Navbar />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/user" element={<User />} />
+          <Route path="/quantum" element={<QuantumSolum />} />
+          <Route path="/marcus" element={<MarcusTremer />} />
+        </Routes>
+      </div>
     </div>
   );
 }

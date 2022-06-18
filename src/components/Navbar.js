@@ -8,7 +8,6 @@ export const Navbar = () => {
         backgroundColor: "lightblue",
         width: "300px",
         height: "100vh",
-        position: "absolute",
       }}
     >
       <nav>
