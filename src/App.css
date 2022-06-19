@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+/* Display Navbar and section horizontally */
+.app-wrapper {
+  display: flex;
+  flex-direction: row;
+}

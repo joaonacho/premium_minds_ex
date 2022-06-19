@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header />
 
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div className="app-wrapper">
         <Navbar />
         <Routes>
           <Route path="/about" element={<About />} />

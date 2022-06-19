@@ -2,9 +2,17 @@
 
 ## Website Clone
 
-To launch the clone, you must first fork and clone this repo into your local machine, then you can go to your terminal and write the following command "npm start".
+To check the exercise locally you must first fork and clone this repo into your local machine.
 
-This will open a new tab in the browser and you can interact with it.
+Open your terminal and enter the project folder, write the following command in the terminal "npm start".
+
+This will open a new tab in the browser and you can see the exercise.
+
+## Tech Stack
+
+- NodeJS,
+- ReactJS,
+- CSS.
 
 Thank you for your time and for considering my application.
 

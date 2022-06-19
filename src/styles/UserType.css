@@ -1,0 +1,105 @@
+/* User section */
+.user-section {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-section-header {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 120px;
+  align-self: flex-start;
+}
+
+/* User form */
+.form-container {
+  width: 90%;
+  margin-top: 50px;
+}
+
+/* Form Header */
+.form-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: lightgrey;
+}
+
+.form-header-left {
+  padding-left: 20px;
+}
+
+.form-header-right {
+  padding-right: 20px;
+  font-size: 1.5rem;
+}
+
+/* Input container */
+.input-container {
+  background-color: white;
+  height: 180px;
+  display: flex;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* Checkbox */
+.checkbox-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 50px;
+  width: 200px;
+}
+
+/* Contact */
+.form-input {
+  margin-top: 15px;
+  background-color: white;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 300px;
+}
+
+.input-label {
+  color: grey;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn-wrapper {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.btn-cancel {
+  width: 200px;
+  margin-right: 20px;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-radius: 30px;
+  padding: 10px 0;
+}
+
+.btn-save {
+  width: 200px;
+  border: none;
+  background-color: rgb(114, 197, 224);
+  border-radius: 30px;
+  padding: 10px 0;
+  color: white;
+}

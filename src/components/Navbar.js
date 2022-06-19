@@ -1,28 +1,53 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import "../styles/Navbar.css";
 
 export const Navbar = () => {
+  const location = useLocation();
+
   return (
-    <aside
-      style={{
-        backgroundColor: "lightblue",
-        width: "300px",
-        height: "100vh",
-      }}
-    >
+    <aside className="nav-container">
       <nav>
-        <ul style={{ listStyle: "none", textAlign: "left", marginTop: "50px" }}>
+        <ul>
           <li>
-            <Link to="/about">Sobre nós</Link>
+            <Link
+              className={
+                location.pathname === "/about" ? "li-link-active" : "li-link"
+              }
+              to="/about"
+            >
+              Sobre nós
+            </Link>
           </li>
           <li>
-            <Link to="/user">Utilizador</Link>
+            <Link
+              className={
+                location.pathname === "/user" ? "li-link-active" : "li-link"
+              }
+              to="/user"
+            >
+              Utilizador
+            </Link>
           </li>
           <li>
-            <Link to="/quantum">Quantum solum</Link>
+            <Link
+              className={
+                location.pathname === "/quantum" ? "li-link-active" : "li-link"
+              }
+              to="/quantum"
+            >
+              Quantum solum
+            </Link>
           </li>
           <li>
-            <Link to="/marcus">Marcus Tremer</Link>
+            <Link
+              className={
+                location.pathname === "/marcus" ? "li-link-active" : "li-link"
+              }
+              to="/marcus"
+            >
+              Marcus Tremer
+            </Link>
           </li>
         </ul>
       </nav>
